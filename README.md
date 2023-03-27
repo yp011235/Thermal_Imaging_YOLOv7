@@ -11,3 +11,7 @@ YOLOv7: An advanced CNN that works in real time with a good balance of speed and
 <img width="1274" alt="Screen Shot 2023-03-27 at 2 40 32 PM" src="https://user-images.githubusercontent.com/88117317/228036222-600e8923-ce6b-4b92-bbeb-aca097971a67.png">
 
 <img width="1277" alt="Screen Shot 2023-03-27 at 2 41 03 PM" src="https://user-images.githubusercontent.com/88117317/228036263-22843198-d09a-4060-8238-bc19ad9c4144.png">
+
+# Results
+
+Given the same number of training images, Black Hot Thermal was better at detecting poachers as they were running away. But 60 images to train 200 epochs off of isn't a good training size. The fusion thermal may get better results than previously if we used 1000 or more annotated images, but I believe it would not be better than the black hot thermal imaging.
